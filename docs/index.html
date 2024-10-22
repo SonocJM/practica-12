@@ -1,66 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>practica-12</title>
+  <meta name="description" content="Práctica de estilos CSS para la serie Kimetsu no Yaiba (Demon Slayer)">
+  <title>Kimetsu no Yaiba - Practica 12</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Kimetsu no Yaiba(Demon Slayer)</h1>
-  <h2>Información General</h2>
-  <p><b>Nombre de la serie:</b>Kimetsu no Yaiba (Demon Slayer)</p>
-  <p><b>Año de estreno:</b> 2019</p>
-  <p><b>País de origen:</b>Japon</p>
-  <p><b>Nombre de los creadores:</b>Koyoharu Gotouge (manga), ufotable (anime)</p>
-  <h2>Breve Sinopsis</h2>
-  <p>La historia sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es asesinada por un demonio y su hermana Nezuko es transformada en uno. Tanjiro busca venganza y una manera de devolver a su hermana a su forma humana mientras se enfrenta a poderosos demonios y desentraña los secretos de su mundo.</p>
-  <h2>Temporadas y Capítulos</h2>
-  <p>Tiene actualmente un total de 5 temporadas, sin embargo se estan preparando mas</p>
-  <h3>Temporada 1</h3>
-  <p>Tiene 26 episodios: Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es masacrada y su hermana Nezuko es transformada en demonio. Juntos, luchan contra demonios mientras buscan una forma de devolverle su humanidad a Nezuko.</p>
-  <h3>Temporada 2</h3>
-  <p>Tiene 7 episodios: Tanjiro y sus amigos se unen al Hashira de Fuego, Kyojuro Rengoku, para investigar desapariciones en un tren. Enfrentan al poderoso demonio Enmu y sus ilusiones mortales, lo que les lleva a profundizar en sus propios pasados y deseos.</p>
-  <h3>Temporada 3</h3>
-  <p>Tiene 11 episodios: Tanjiro y sus amigos se infiltran en el distrito rojo para rescatar a unas chicas desaparecidas. Se encuentran con el poderoso demonio Daki y su hermano Gyutaro, enfrentándose a intensas batallas y revelando más sobre el pasado de los personajes.</p>
-  <h3>temporada 4</h3>
-  <p>Tiene 11 episodios: Tanjiro y Nezuko buscan un nuevo espada en el pueblo de los forjadores de espadas. Allí, se enfrentan a dos poderosos demonios, Hantengu y Gyokko, y se encuentran con nuevos aliados, incluidos Hashira. La temporada combina emocionantes batallas, desarrollo de personajes y profundiza en la historia de los cazadores de demonios.</p>
-  <h3>Temporada 5</h3>
-  <p>Tiene 8 episodios: Tanjiro, Nezuko y sus compañeros entrenan bajo la tutela de los Hashira para prepararse para futuras batallas contra los demonios. Durante este período, profundizan en sus habilidades y enfrentan desafíos tanto físicos como emocionales. </p>
-  <img src="https://i3.wp.com/w0.peakpx.com/wallpaper/358/749/HD-wallpaper-demon-slayer-manga-anime-kny.jpg?ssl=1">
-  <br />
-  <table border="1">
-    <tr>
+  <h1 class="text-center">Kimetsu no Yaiba (Demon Slayer)</h1>
+
+  <h2 class="text-left margin-bottom">Información General</h2>
+  <p class="padding-10"><b>Nombre de la serie:</b> Kimetsu no Yaiba (Demon Slayer)</p>
+  <p class="padding-10"><b>Año de estreno:</b> 2019</p>
+  <p class="padding-10"><b>País de origen:</b> Japón</p>
+  <p class="padding-10"><b>Nombre de los creadores:</b> Koyoharu Gotouge (manga), ufotable (anime)</p>
+
+  <h2 class="text-left margin-bottom">Breve Sinopsis</h2>
+  <p class="padding-10">La historia sigue a Tanjiro Kamado, un joven que se convierte en cazador de demonios...</p>
+
+  <h2 class="text-left margin-bottom">Temporadas y Capítulos</h2>
+  <div class="padding-10">
+    <h3 class="font-bold">Temporada 1</h3>
+    <p>Tiene 26 episodios: Tanjiro Kamado, un joven que se convierte en cazador de demonios después de que su familia es masacrada y su hermana Nezuko es transformada en demonio...</p>
+
+    <h3 class="font-bold">Temporada 2</h3>
+    <p>Tiene 7 episodios: Tanjiro y sus amigos se unen al Hashira de Fuego, Kyojuro Rengoku...</p>
+
+    <h3 class="font-bold">Temporada 3</h3>
+    <p>Tiene 11 episodios: Tanjiro y sus amigos se infiltran en el distrito rojo para rescatar a unas chicas desaparecidas...</p>
+
+    <h3 class="font-bold">Temporada 4</h3>
+    <p>Tiene 11 episodios: Tanjiro y Nezuko buscan un nuevo espada en el pueblo de los forjadores de espadas...</p>
+
+    <h3 class="font-bold">Temporada 5</h3>
+    <p>Tiene 8 episodios: Tanjiro, Nezuko y sus compañeros entrenan bajo la tutela de los Hashira...</p>
+  </div>
+
+  <img class="center rounded margin-bottom" src="https://i3.wp.com/w0.peakpx.com/wallpaper/358/749/HD-wallpaper-demon-slayer-manga-anime-kny.jpg?ssl=1" alt="Demon Slayer">
+
+  <table class="border">
+    <tr class="bg-dark">
       <th>Personaje</th>
       <th>Imagen</th>
-      <th>Descripcion</th>
+      <th>Descripción</th>
     </tr>
     <tr>
       <td>Tanjiro Kamado</td>
-      <td><img src= https://avatarfiles.alphacoders.com/371/371638.png></td>
+      <td><img class="rounded" src="https://avatarfiles.alphacoders.com/371/371638.png" alt="Tanjiro Kamado"></td>
       <td>Protagonista, un joven cazador de demonios.</td>
     </tr>
     <tr>
       <td>Nezuko Kamado</td>
-      <td><img src= https://avatarfiles.alphacoders.com/306/306428.png></td>
+      <td><img class="rounded" src="https://avatarfiles.alphacoders.com/306/306428.png" alt="Nezuko Kamado"></td>
       <td>Hermana de Tanjiro, transformada en demonio.</td>
     </tr>
     <tr>
       <td>Zenitsu Agatsuma</td>
-      <td><img src= https://wallpapers-clan.com/wp-content/uploads/2022/09/zenitsu-pfp-16.jpg></td>
+      <td><img class="rounded" src="https://wallpapers-clan.com/wp-content/uploads/2022/09/zenitsu-pfp-16.jpg" alt="Zenitsu Agatsuma"></td>
       <td>Compañero de Tanjiro, temeroso pero poderoso.</td>
     </tr>
     <tr>
-      <td> Inosuke Hashibira</td>
-      <td><img src= https://avatarfiles.alphacoders.com/353/353341.png></td>
+      <td>Inosuke Hashibira</td>
+      <td><img class="rounded" src="https://avatarfiles.alphacoders.com/353/353341.png" alt="Inosuke Hashibira"></td>
       <td>Cazador feroz, criado por jabalíes.</td>
     </tr>
   </table>
-  <h2>Sitio Oficial y Redes Sociales</h2>
-  <ul>
-    <li><a href ="https://kimetsu.com/" target = "_blank"><i>Sitio Oficial de Demon Slayer</i></a></li>
-    <li><a href ="(https://twitter.com/DemonSlayerUSA" target = "_blank"><i>Twitter</i></a></li>
-    <li><a href ="https://www.instagram.com/demonslayerusa/" target = "_blank"><i>Instagram</i></a></li>
-    <li><a href="https://www.youtube.com/watch?v=sT-cJ6RiwJI" target="_blank"><i>Escena Memorable</i></a></li>
+
+  <h2 class="text-left margin-bottom">Sitio Oficial y Redes Sociales</h2>
+  <ul class="padding-10">
+    <li><a href="https://kimetsu.com/" target="_blank">Sitio Oficial de Demon Slayer</a></li>
+    <li><a href="https://twitter.com/DemonSlayerUSA" target="_blank">Twitter</a></li>
+    <li><a href="https://www.instagram.com/demonslayerusa/" target="_blank">Instagram</a></li>
+    <li><a href="https://www.youtube.com/watch?v=sT-cJ6RiwJI" target="_blank">Escena Memorable</a></li>
   </ul>
 </body>
 </html>
