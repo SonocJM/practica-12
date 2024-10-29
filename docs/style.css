@@ -76,3 +76,16 @@ img.center {
   margin: 0 auto; 
   max-width: 100%; 
 }
+
+.table-custom-dark {
+  background-color: #111; 
+  color: #fff; 
+}
+
+.table-custom-dark td {
+  color: #fff;
+}
+
+.table-custom-dark th {
+  color: #fff;
+}
